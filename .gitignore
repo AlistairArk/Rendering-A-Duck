@@ -75,6 +75,7 @@ StyleCopReport.xml
 *.ilk
 *.meta
 *.obj
+!RenderingADuck/models/**.obj
 *.iobj
 *.pch
 *.pdb
@@ -360,3 +361,7 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+
+# Except for the these directories:
+
